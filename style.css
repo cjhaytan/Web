@@ -167,6 +167,7 @@ header {
 }
 .about-text p {
     font-size: 1.4rem;
+    text-align: justify;
     padding-top: 1em;
     padding-right:18.5em;
 }

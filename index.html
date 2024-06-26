@@ -75,13 +75,63 @@
      <section class="contact-form" id="contact">
         <div class="heading">
             <h1>Contact Me</h1>
+            <p>If you have suggestions or ideas, 
+                kindly leave a message below.
+            </p>
+
+            <form action="">
+                <div class="form-group">
+                    <label for="firstname">First name</label>
+                    <input 
+                    type="text" 
+                    name="firstname" 
+                    id="firstname" required
+                    class="form-element"
+                    placeholder="Christian Jhay">
+                </div>
+                <div class="form-group">
+                    <label for="lastname">Last name</label>
+                    <input 
+                    type="text" 
+                    name="lastname" 
+                    id="lastname" required
+                    class="form-element"
+                    placeholder="Tan">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input 
+                    type="email" 
+                    name="email" 
+                    id="email" required
+                    class="form-element"
+                    placeholder="christianjhaytan@gmail.com">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone number</label>
+                    <input 
+                    type="tel" 
+                    name="phone"
+                    id="phone"
+                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                    placeholder="0987-654-3210" required
+                    class="form-element">
+                </div>
+                <div class="form-group full">
+                    <label for="message">Your Message</label>
+                    <textarea 
+                    id="message" 
+                    name="message" 
+                    class="form-element"
+                    placeholder="Your message"></textarea>
+                </div>
+                <div class="submit-group">
+                    <img src="" alt="">
+                    <input type="submit" value="Send Message">
+                </div>
+            </form>
         </div>
-        <form action="">
-            <ul>
-                <li></li>
-            </ul>
-        </form>
-     </section>
+    </section>
     <script src="index.js"></script>
 </body>
 </html>
