@@ -72,66 +72,65 @@
         </div>
     </section>
     <!-- Contact form Section-->
-     <section class="contact-form" id="contact">
-        <div class="heading">
+    <section class="contact-form" id="contact">
+        <div class="head-contact">
             <h1>Contact Me</h1>
             <p>If you have suggestions or ideas, 
                 kindly leave a message below.
             </p>
-
-            <form action="">
+        </div>
+        <div class="form"></div>
+            <form action="#">
                 <div class="form-group">
-                    <label for="firstname">First name</label>
                     <input 
                     type="text" 
                     name="firstname" 
                     id="firstname" required
                     class="form-element"
-                    placeholder="Christian Jhay">
+                    placeholder="First name">
                 </div>
                 <div class="form-group">
-                    <label for="lastname">Last name</label>
                     <input 
                     type="text" 
                     name="lastname" 
                     id="lastname" required
                     class="form-element"
-                    placeholder="Tan">
+                    placeholder="Last name">
                 </div>
+
                 <div class="form-group">
-                    <label for="email">Email address</label>
                     <input 
                     type="email" 
                     name="email" 
                     id="email" required
                     class="form-element"
-                    placeholder="christianjhaytan@gmail.com">
-                </div>
-                <div class="form-group">
-                    <label for="phone">Phone number</label>
-                    <input 
-                    type="tel" 
-                    name="phone"
-                    id="phone"
-                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-                    placeholder="0987-654-3210" required
-                    class="form-element">
+                    placeholder="Email address">
                 </div>
                 <div class="form-group full">
-                    <label for="message">Your Message</label>
                     <textarea 
                     id="message" 
                     name="message" 
-                    class="form-element"
+                    class="form-element textarea-field"
                     placeholder="Your message"></textarea>
                 </div>
+
                 <div class="submit-group">
-                    <img src="" alt="">
+                    <img src="assets/sent.png" alt="sent">
                     <input type="submit" value="Send Message">
                 </div>
             </form>
         </div>
+        <div class="social-media">
+            <li><a href="#"><i class='bx bxl-facebook-circle'></i></a></li>
+            <li><a href="#"><i class='bx bxl-instagram-alt'></i></a></li>
+            <li><a href="#"><i class='bx bxl-github'></i></a></li>
+        </div>
     </section>
+    <footer>
+        <div class="footer">
+            <h3>&copy; 2024 by Christian Jhay Tan</h3>
+        </div>
+    </footer>
     <script src="index.js"></script>
 </body>
 </html>
